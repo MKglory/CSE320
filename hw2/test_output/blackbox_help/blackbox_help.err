@@ -1,0 +1,19 @@
+GRADES (version 0.51, March 9, 1992 -- with CSE320 mods)
+
+bin/grades: invalid option -- 'h'
+Usage: bin/grades [options] <data file>
+Valid options are:
+	-r, --report                 	Process input data and produce specified reports.
+	-c, --collate                	Collate input data and dump to standard output.
+	    --freqs                  	Print frequency tables.
+	    --quants                 	Print quantile information.
+	    --summaries              	Print quantile summaries.
+	    --stats                  	Print means and standard deviations.
+	    --comps                  	Print students' composite scores.
+	    --indivs                 	Print students' individual scores.
+	    --histos                 	Print histograms of assignment scores.
+	    --tabsep                 	Print tab-separated table of student scores.
+	-a, --all                    	Print all reports.
+	-k, --sortby     <key>       	Sort by {name, id, score}.
+	-n, --nonames                	Suppress printing of students' names.
+	-o, --output     <file>      	Specify file to be used for output.

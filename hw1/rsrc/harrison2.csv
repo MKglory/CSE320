@@ -1,0 +1,9 @@
+#
+# Example 2 from Amelia Harrison/Ryan Moore blog:
+# https://www.tenderisthebyte.com/blog/2022/08/31/neighbor-joining-trees/
+#
+,A,B,C,D
+A,0,2,2,2
+B,2,0,3,2
+C,2,3,0,2
+D,2,2,2,0
